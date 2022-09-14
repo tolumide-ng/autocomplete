@@ -1,0 +1,5 @@
+.card {
+    height: var(--card-height);
+    margin-top: 1rem;
+    font-weight: bold;
+}

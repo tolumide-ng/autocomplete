@@ -1,0 +1,26 @@
+.home {
+    --input-width: 30%;
+    --card-height: 10rem;
+    --color-black: black;
+    --color-white: white;
+    --color-pink: pink;
+    --color-bisque: bisque;
+
+    height: 100%;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+@media screen and (max-width: 900px) {
+    .home {
+        --input-width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home {
+        --input-width: 80%;
+    }
+}

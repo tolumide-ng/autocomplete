@@ -1,0 +1,31 @@
+.search {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchTitle {
+    margin-bottom: 1rem;
+}
+
+.searchContainer {
+    display: flex;
+    width: var(--input-width);
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.searchLabel {
+    font-size: 0.75rem;
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+}
+
+.searchInput {
+    height: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+}

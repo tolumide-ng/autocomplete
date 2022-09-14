@@ -1,0 +1,18 @@
+.card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.cardContainer {
+    width: var(--input-width);
+    border: 1px solid black;
+    max-height: var(--card-height);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.highlight {
+    background-color: var(--color-pink);
+}

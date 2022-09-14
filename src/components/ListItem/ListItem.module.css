@@ -1,0 +1,17 @@
+.list {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 0.25rem 0.5rem;
+    justify-content: space-between;
+    font-size: 0.75rem;
+}
+
+.listName {
+    text-transform: lowercase;
+}
+
+.list:hover {
+    cursor: pointer;
+    background-color: var(--color-bisque);
+}
